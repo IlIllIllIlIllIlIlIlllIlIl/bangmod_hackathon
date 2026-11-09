@@ -69,7 +69,7 @@ int main() {
         "impression",
         "incredible",
         "individual",
-        "initative",
+        "initiative",
         "innovation",
         "instrument",
         "investment",
@@ -96,7 +96,7 @@ int main() {
         "photograph",
         "population",
         "proportion",
-        "phychology",
+        "psychology",
         "reflection",
         "regulation",
         "reputation",
@@ -124,7 +124,7 @@ int main() {
         {
             if (target == vocabulary[j])
             {
-                scores += j + 1;
+                scores = scores + (j + 1);
                 found = true;
                 break;
             }
